@@ -1,2 +1,6 @@
 # HTMLRegex
-HTML parsing regex
+An experiment
+
+```
+/<(\w+)((?:\s+\w+(?:\s*=\s*(?:".*?"|'.*?'|[^'">\s]+))?)+\s*|\s*)>(.*)<\/\1>/
+```
